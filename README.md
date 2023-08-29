@@ -103,7 +103,7 @@ ros2 node info relay
 ## 8: Deliverables and Submission
 In addition to the three deliverables described in this document, fill in the answers to the questions listed in **`SUBMISSION.md`**.
 
-We'll be using Github classroom throughout the semester to manage submissions for lab assignments. After you're finished, directly commit and push to the repo Github classroom created for you.
+We'll be using canvas throughout the semester to manage submissions for lab assignments. After you're finished, download the zip file containing the workspace or the 3 deliverables along with the **`SUBMISSION.md`** and submit the zip file to canvas.
 
 ## 9: Grading Rubric
 - Correctly creating the package: **25** Points
