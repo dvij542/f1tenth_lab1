@@ -69,7 +69,10 @@ If you need multiple terminals and you're inside a Docker container, use `tmux`.
 - The package supports both `Python` and `C++`.
 - The package needs to have the `ackermann_msgs` dependency.
 - Both of these can be done by declaring the correct dependencies in `package.xml`.
-- If declared properly the depencies could be installed using `rosdep`.
+- If declared properly the depencies could be installed using `rosdep` as follows :-
+  ```bash
+  rosdep install -i --from-path src --rosdistro foxy -y
+  ```
 - Your package folder should be neat. You shouldn't have multiple 'src' folders or unnecessary 'install' or 'build' folders.
 
 ## 5: Creating nodes with publishers and subscribers
